@@ -5,7 +5,7 @@ iptables -X
 # INSTALLATION DES PAQUETS NECESSAIRES
 apt update
 #apt install -y expect
-apt install -y apache2 php postgresql postgresql-client git
+apt install -y apache2 php php-pgsql libapache2-mod-php postgresql postgresql-client libpq5 postgresql-client-common postgresql-contrib git
 
 #IMPORTATION DU GIT AVEC LES FICHIERS .PHP ET .HTML
 cd /home/debian/ 
